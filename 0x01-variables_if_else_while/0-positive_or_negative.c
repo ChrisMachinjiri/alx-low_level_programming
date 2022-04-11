@@ -1,6 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#Include <stdlib.h>
+#Include <time.h>
+#Include <stdio.h>
 
 /**
  * main -Entry point
@@ -10,24 +10,23 @@
 
 Int main(void)
 {
-	Int n:
-		srand(time(0))
-		n=rand() - RAND / 2;
-	If (n==0)
-	{
-		printf("%i is zero\n" . n);
-	}
+Int n:
+srand(time(0))
+n = rand() - RAND / 2;
+If (n==0)
+{
+	printf("%i is zero\n" . n);
+}
 
-	else if (n<0)
-	{
-
-		 printf("%i is negative\n" . n);
-	}
+else if (n<0)
+{
+	printf("%i is negative\n" . n);
+}
 
 	else
-	{
-		 printf("%i is positive\n" . n);
-	}
+{
+	printf("%i is positive\n" . n);
+}
 
 	Return (0);
 }
