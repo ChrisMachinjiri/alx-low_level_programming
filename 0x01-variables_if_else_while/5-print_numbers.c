@@ -8,10 +8,10 @@
 
 int main(void)
 {
-int digit;
-for (digit = 0; digit < 10; digit++)
+int b;
+for (b = 0 ; b < 10; b++)
 {
-printf("%digit", digit);
+printf("%b", b);
 }
 
 putchar('\n');
